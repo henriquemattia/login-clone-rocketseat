@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+.cor-do-texto {
+    color: rgba(255, 255, 255, 0.842);
+}
+
+.cor-primaria {
+    background-color: rgb(11, 11, 11);
+}
+
+.cor-secundaria {
+    background-color: rgba(45, 44, 44, 0.966);
+}
+
+.font-text-titulo {
+    font-size: 5em;
+}
+
+.container-1 {
+    height: 100vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.container-2 {
+    display: flex;
+    height: 70vh;
+    width: 70vw;
+}
+
+
+.left-content {
+    /* border: 1px solid blue; */
+    display: flex;
+    width: 50%;
+}
+
+.upper-content {
+    height: 43%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    margin-bottom: 15%;
+}
+
+.lower-content {
+    padding: 4px;
+
+}
+
+
+
+/* AQUI TEMRINA A ESTILIZAÇAO DO LADO DIREITO DA ESQUERDO */
+
+.form-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-content {
+    /*     border: 1px solid greenyellow;*/
+        border-radius: 8px;
+        width: 50%;
+    }
+    
