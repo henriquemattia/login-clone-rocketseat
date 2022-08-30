@@ -1,27 +1,30 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+   
+    }
+
+a {
+    text-decoration: none;
 }
 
 body {
     height: 100%;
     width: 100%;
 }
-.cor-do-texto {
+.cor-do-titulo {
     color: rgba(255, 255, 255, 0.842);
 }
 
 .cor-primaria {
-    background-color: rgb(11, 11, 11);
+    background-color: rgb(15, 15, 15);
 }
 
 .cor-secundaria {
-    background-color: rgba(45, 44, 44, 0.966);
+    background-color: rgb(32, 32, 36);
 }
 
-.font-text-titulo {
-    font-size: 5em;
-}
 
 .container-1 {
     height: 100vh;
@@ -34,48 +37,123 @@ body {
 
 .container-2 {
     display: flex;
-    height: 70vh;
-    width: 70vw;
+    height: 75vh;
+    width: 90vw;
 }
 
 
 .left-content {
-    /* border: 1px solid blue; */
     display: flex;
     width: 50%;
+    margin-left: 8%;
+
+}
+.logo {
+    height: 2.5rem;
+    width: auto;
+    margin-bottom: 15%;
+}
+.text-titulo {
+    font-size: 3.5em;
+    margin-bottom: 20%;
+
 }
 
-.upper-content {
+
+.left-upper-content {
     height: 43%;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
 }
 
-.logo {
-    height: 50px;
-    width: auto;
-    margin-bottom: 15%;
+
+.left-lower-content {
+    padding-right: 44px;
 }
-
-.lower-content {
-    padding: 4px;
-
-}
-
 
 
 /* AQUI TEMRINA A ESTILIZAÇAO DO LADO DIREITO DA ESQUERDO */
-
-.form-container {
+.right-content {
+    border-radius: 8px;
+    width: 50%;
+    margin-right: 10%;
+    padding: 64px;
     display: flex;
-    align-items: center;
     flex-direction: column;
 }
 
-.right-content {
-    /*     border: 1px solid greenyellow;*/
-        border-radius: 8px;
-        width: 50%;
-    }
+
+
+.content-form {
+   display: grid;
+   gap: 10px;
+}
+
+.form-button{
+    border: 1px solid;
+    width: 100%;
+    height: 50px;
+    font-size: 16px;
+    background: rgb(18, 18, 20);
+    border-color: rgb(18, 18, 20);
+    color: rgb(255, 255, 255);
+    padding-left: .8rem;
+    border-radius: 5px;
+}
+
+.forgot-password {
+    font-size: 14px;
+    font-weight: 600;
+    color: blueviolet;
     
+    margin: 8px 0px 24px; 
+}
+
+.login-button{
+    background: rgb(88, 30, 142);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.login-button:hover {
+    background-color: blueviolet;
+    transition:.5s
+}
+
+.register {
+    text-align: center;
+    color: rgb(220, 220, 220);
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+.register a {
+    color: blueviolet;
+}
+
+.git-button {
+    text-align: center;
+    color: rgb(220, 220, 220);
+    font-size: 13px;
+    margin-top: 40px;
+}
+
+.git-button button{
+    background: rgb(41, 41, 46);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    border: 0px;
+    font-weight: bold;
+    margin-left: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.git-button button:hover {
+    background-color: blueviolet;
+    transition:.5s
+}
