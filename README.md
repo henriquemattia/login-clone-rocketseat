@@ -1,5 +1,5 @@
 # Login-clone-Rocketseat
-Este foi um projeto simples e rápido, com a finalidade de testar minhas habilidades em CSS puro!
+Este foi um projeto simples e rápido, com a finalidade de testar minhas habilidades em HTML e CSS puro!
 
 ##
 
