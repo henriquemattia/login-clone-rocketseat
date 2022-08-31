@@ -13,18 +13,18 @@ body {
     height: 100%;
     width: 100%;
 }
-.cor-do-titulo {
+
+.title-color {
     color: rgba(255, 255, 255, 0.842);
 }
 
-.cor-primaria {
+.primary-color {
     background-color: rgb(15, 15, 15);
 }
 
-.cor-secundaria {
+.second-color {
     background-color: rgb(32, 32, 36);
 }
-
 
 .container-1 {
     height: 100vh;
@@ -41,24 +41,22 @@ body {
     width: 90vw;
 }
 
-
 .left-content {
     display: flex;
     width: 50%;
     margin-left: 8%;
-
 }
+
 .logo {
     height: 2.5rem;
     width: auto;
     margin-bottom: 15%;
 }
+
 .text-titulo {
     font-size: 3.5em;
     margin-bottom: 20%;
-
 }
-
 
 .left-upper-content {
     height: 43%;
@@ -67,11 +65,9 @@ body {
     align-items: flex-end;
 }
 
-
 .left-lower-content {
     padding-right: 44px;
 }
-
 
 /* AQUI TEMRINA A ESTILIZAÇAO DO LADO DIREITO DA ESQUERDO */
 .right-content {
@@ -82,8 +78,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
-
 
 .content-form {
    display: grid;
