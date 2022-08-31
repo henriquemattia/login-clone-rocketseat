@@ -12,7 +12,7 @@ Este foi um projeto simples e rápido, com a finalidade de testar minhas habilid
 
 ### Página desenvolvida por mim!
 
-<div><img src='./images/readme/Login-Clone.png' alt=''/> </div>
+<div><img src='./images/readme/Login-clone.png' alt=''/> </div>
 
 ##
 
