@@ -5,13 +5,14 @@ Este foi um projeto simples e rápido, com a finalidade de testar minhas habilid
 
 ## Prints
 ### Página atual da rocktseat!
-[./images]
+
+<div> <img src='./images/readme/Rocketseat-Login.png' alt=''/> </div>
 
 ##
 
 ### Página desenvolvida por mim!
 
-print muito loco da minha página
+<div><img src='./images/readme/Login-Clone.png' alt=''/> </div>
 
 ##
 
@@ -22,4 +23,4 @@ print muito loco da minha página
 
 ## Video
 
-[videio muito loco]
+### Link: https://www.youtube.com/watch?v=3GzLe9eXxjA
