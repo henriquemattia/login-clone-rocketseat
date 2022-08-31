@@ -40,6 +40,7 @@ body {
     width: 90vw;
 }
 
+/* LEFT SIDE */
 .left-content {
     display: flex;
     width: 50%;
@@ -52,7 +53,7 @@ body {
     margin-bottom: 15%;
 }
 
-.text-titulo {
+.title-text {
     font-size: 3.5em;
     margin-bottom: 20%;
 }
@@ -68,7 +69,7 @@ body {
     padding-right: 44px;
 }
 
-/* AQUI TEMRINA A ESTILIZAÇAO DO LADO DIREITO DA ESQUERDO */
+/* RIGHT SIDE */
 .right-content {
     border-radius: 8px;
     width: 50%;
@@ -106,7 +107,7 @@ body {
 .login-button{
     background: rgb(88, 30, 142);
     border-radius: 5px;
-    color: rgb(255, 255, 255);
+    color: rgb(201, 201, 201);
     border: 0px;
     font-weight: bold;
     height: 50px;
@@ -114,6 +115,7 @@ body {
 
 .login-button:hover {
     background-color: blueviolet;
+    color: rgb(255, 255, 255);
     transition:.5s
 }
 
@@ -138,7 +140,7 @@ body {
 .git-button button{
     background: rgb(41, 41, 46);
     border-radius: 5px;
-    color: rgb(255, 255, 255);
+    color: rgb(201, 201, 201);
     border: 0px;
     font-weight: bold;
     margin-left: 10px;
@@ -148,5 +150,6 @@ body {
 
 .git-button button:hover {
     background-color: blueviolet;
+    color: rgb(255, 255, 255);
     transition:.5s
 }
